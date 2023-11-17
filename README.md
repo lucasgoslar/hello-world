@@ -1,4 +1,8 @@
 # hello-world
-git add .
-git commit -m "Adicionar script Python e README"
-git push origin master
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+if __name__ == "__main__":
+    nome = input("Digite seu nome: ")
+    mensagem = saudacao(nome)
+    print(mensagem)
